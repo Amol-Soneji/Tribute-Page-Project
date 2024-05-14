@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("/images/pexels-markus-spiske-1089438.jpg");
+  /*Image from https://www.pexels.com/photo/close-up-photo-of-matrix-background-1089438/*/
+  background-size: cover;
+}
+
+#main {
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+  background-image: conic-gradient(rgba(39, 81, 11, 1), rgba(41, 74, 20, 0.8) 97%, rgba(153, 216, 130, 0.65)99.99%);
+  z-index: 1;
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Courier New", "Lucida Console", monospace;
+  color: #E63D23;
+  padding-top: 15px;
+}
+
+#img-div {
+  margin: auto;
+}
+
+#img-caption {
+  font-family: "Arial", "Helvitica", sans-serif;
+  font-size: 85%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #E63D23;
+}
+
+#tribute-info {
+  font-family: "Times New Roman", "Times", serif;
+  color: #E63D23;
+  padding-top: 7px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#tribute-link:link {
+  color: #FFFFFF;
+}
+
+#tribute-link:visited {
+  color: #EDB72E;
+}
+
+#image {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+#time-line {
+  padding-bottom: 17.5%;
+}
+
+#time-line h3 {
+  text-decoration: underline;
+}
+
+#time-line span {
+  font-weight: bold;
+}
+
+footer {
+  background-image: linear-gradient(to top, #00B386, #000000);
+  color: #FFFFFF;
+  font-family: "Arial", "Helvitica", sans-serif;
+  width: 100%;
+  z-index: 2;
+  padding-left: 5%;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
